@@ -10,10 +10,9 @@ Did you ever go through your vacation photos and ask yourself: What is the name 
 Data_preparation.ipynb - Download Pictures from the Dataset, Resize them, Store them Class by Class in three separate folders, 'Training Data', 'Validation Data', 'Test Data'.
 The three set have been separated with a percentage : 75%,20%,5%. No Data Augmentation has been performed.
 
-Model_Pretraining.ipynb - Pre-training of the four models on ImageNet dataset and then feed with LAndmark recognition examples to quickly 
-identify the most appropriate one to train further.
+Model_Pretraining.ipynb - Pre-training of four CNNs common architectures on the Imagenet dataset to quickly identify the most appropriate one.
 
-VGG16_Optimizition.ipynb, Inception_Optimization.ipynb, Resnet_Optimization.ipynb, Densenet_Optimization.ipynb - Training of the four models,
+VGG16_Optimizition.ipynb, Inception_Optimization.ipynb, Resnet_Optimization.ipynb, Densenet_Optimization.ipynb - Intensive training on the four models,
 Hyper-parameters tuning with RandomizedSearch, Dropout and Regularization to avoid overfitting.
 
 Ensemble_Algorithm.ipynb - Get an ensemble of the four previous models and get a prediction score on the test set.
