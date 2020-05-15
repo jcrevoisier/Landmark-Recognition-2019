@@ -1,5 +1,4 @@
 # Landmark-Recognition-2019
-Final project of Learning AI 2019
 
 # The Project Context : 
 
